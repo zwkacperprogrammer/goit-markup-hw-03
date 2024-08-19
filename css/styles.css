@@ -1,0 +1,88 @@
+body {
+  font-family: "roboto", "raleway", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.logo {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+}
+
+a:focus,
+a:hover {
+  color: goldenrod;
+}
+button {
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+button:focus,
+button:hover {
+  background-color: goldenrod;
+}
+header {
+  background-color: #e7e9fc;
+  line-height: 24px;
+}
+.our-motto {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+.person-in-team {
+  background-color: white;
+}
+footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.first-part-of-logo-up {
+  color: #4d5ae5;
+}
+.second-part-of-logo-up {
+  color: #2e2f42;
+}
+.first-part-of-logo-down {
+  color: #4d5ae5;
+}
+.second-part-of-logo-down {
+  color: #f4f4fd;
+}
+.nav-header {
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: solid;
+}
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
