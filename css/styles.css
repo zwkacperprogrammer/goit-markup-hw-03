@@ -1,4 +1,5 @@
 body {
+  list-style-type: none;
   font-family: "roboto", "raleway", sans-serif;
   color: #2e2f42;
   background-color: #ffffff;
@@ -17,6 +18,9 @@ a {
   text-decoration: none;
   color: #2e2f42;
   font-style: normal;
+}
+li {
+  list-style-type: none;
 }
 
 a:focus,
@@ -37,12 +41,30 @@ button:hover {
   background-color: goldenrod;
 }
 header {
+  width: 1440px;
   background-color: #e7e9fc;
   line-height: 24px;
 }
 .our-motto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 600px;
   background-color: #2e2f42;
   color: #ffffff;
+}
+.motto {
+  word-wrap: break-word;
+  max-width: 496px;
+}
+.button-under-motto {
+  border-radius: 4px;
+  border: 0;
+  padding: 16px 32px;
+  gap: 10px;
 }
 .our-team {
   background-color: #f4f4fd;
@@ -67,6 +89,8 @@ footer {
   color: #f4f4fd;
 }
 .nav-header {
+  display: flex;
+  gap: 40px;
   font-weight: 500;
 }
 h1 {
@@ -85,4 +109,20 @@ h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.address-contanct ul {
+  display: flex;
+  gap: 15px;
+}
+.list-our-guarantee {
+  display: flex;
+  justify-content: space-between;
+  width: 1128px;
+  height: 104px;
 }
